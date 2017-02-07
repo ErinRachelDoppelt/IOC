@@ -1,0 +1,68 @@
+/*remove spacing*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: purple;
+}
+
+
+/*css reset*/
+
+.logo {
+    width: 30%;
+    text-align: center;
+    height: 30%;
+}
+
+header {
+  padding: 45px;
+    text-align: right;
+    min-height: 100vh;
+    background-image: url("Meditation.jpg");
+    background-size: cover;
+    width: 100%;
+}
+
+header h1, header h2
+{color: white;
+text-shadow:0 2px 3px black;
+
+}
+
+
+h1, h2 {
+    color: black;
+}
+.mainlinks {position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 30px;
+}
+
+.mainlinks a {
+  color:white;
+  padding-left: 200px;
+}
+.map {
+  width:100%;
+}
+.boxed {
+  padding:50px;
+   margin:1px;
+}
+section h2, #about p {font-family: 'Handlee', cursive;
+max-width: 450px;
+}
